@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: #333;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #333;
+        }
+        
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            height: 70px;
+            width: 70px;
+            display: flex;
+            
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+    
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+            
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            
+        }
+        
+        nav ul li a:hover {
+            color: #ff6600;
+        }
+        
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 40px;
+        }
+        
+        .left {
+            max-width: 50%;
+        }
+        
+        .left h2 {
+            color: #ff6600;
+            font-weight: normal;
+            font-size: 5em;
+        }
+        
+        .left h1 {
+            font-size: 9em;
+            font-weight: bold;
+        }
+        
+        .left h1 span {
+            display: block;
+            font-weight: normal;
+        }
+        
+        .left p {
+            margin: 20px 0;
+            font-size: 4em;
+        }
+        
+        .left button {
+            padding: 15px 30px;
+            background-color: #ff6600;
+            border: none;
+            color: white;
+            font-size: 2em;
+            cursor: pointer;
+        }
+        
+        .left button:hover {
+            background-color: #e55d00;
+        }
+        
+        .right-side img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        
+        .social-icons {
+            position: absolute;
+            right: 40px;
+            bottom: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .social-media a {
+            margin-bottom: 10px;
+        }
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px 20px;
+            }
+        
+            nav ul {
+                flex-direction: column;
+                margin-top: 10px;
+            }
+        
+            nav ul li {
+                margin-left: 0;
+                margin-bottom: 5px;
+            }
+        
+            main {
+                flex-direction: column;
+                padding: 10px;
+            }
+        
+            .left, .middle, .right {
+                width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }    
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="MR logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" style="color:#FF5C00;">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT</a></li>
+                <li><a href="works.html">WORKS</a></li>
+                <li><a href="contactus.html">CONTACT</a></li>
+                <li><a href="certificates.html">CERTIFICATES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="left">
+            <h2>Hello I'm</h2>
+            <h1>Mugabo <span>Robert</span></h1>
+            <p>A Passionate <strong>Web</strong> | <strong>Graphic</strong> | <strong>UI/UX</strong> Designer</p>
+            <button style="border-radius: 10px;" onclick="window.location.href='contactus.html'">Say Hello</button>
+        </div>
+        <div class="right-side">
+            <img src="copy of robert.png" alt="Mugabo Robert">
+        </div>
+        <div class="social-media">
+            <a href="https://www.instagram.com/e_verbuena_k2"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.x.com/el_verbuena"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/mugabo-robert"><i class="fab fa-linkedin-in"></i></a>
+            <a href="contactus.html"><i class="fas fa-phone-alt"></i></a>
+        </div>
+    </main>
+</body>
+</html>

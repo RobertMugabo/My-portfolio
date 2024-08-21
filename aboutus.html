@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: #d3d3d3;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            
+        }
+        
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            height: 70px;
+            width: 70px;
+            display: flex;
+            
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+    
+        }
+        
+        nav ul li {
+            margin-left: 20px;
+            
+        }
+        
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            
+        }
+        
+        nav ul li a:hover {
+            color: #ff6600;
+        }
+        
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px;
+        }
+        
+        .left {
+            float: left;
+  
+        }
+        
+        .right h2 {
+            color: #ff6600;
+            font-weight: bold;
+            font-size: 2em;
+        }
+        
+        .right h1 {
+            font-size: 3em;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .left h1 span {
+            display: block;
+            font-weight: normal;
+        }
+        
+        .right p {
+            margin: 20px 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        
+        .left button {
+            padding: 15px 30px;
+            background-color: #ff6600;
+            border: none;
+            color: white;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        
+        .left button:hover {
+            background-color: #e55d00;
+        }
+        
+        .left img {
+            height: 700px;
+            width: auto;
+            
+        }
+        
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #333;
+            height: 100px;
+            
+        }
+        .footer span {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #333;
+            height: 100px;
+            color: #e55d00;
+        }
+        .right{
+           float: right;
+
+        }
+        .info {
+            margin-top: 20px;
+            color: #333;
+        }
+        
+        .info-item {
+            margin-bottom: 10px;
+        }
+        
+        .info-item span {
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 10px 20px;
+            }
+        
+            nav ul {
+                flex-direction: column;
+                margin-top: 10px;
+            }
+        
+            nav ul li {
+                margin-left: 0;
+                margin-bottom: 5px;
+            }
+        
+            main {
+                flex-direction: column;
+                padding: 10px;
+            }
+        
+            .left, .middle, .right {
+                width: 100%;
+                height: auto;
+                margin-bottom: 20px;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+        }    
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="MR logo.png" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html" >HOME</a></li>
+                <li><a href="aboutus.html" style="color:#FF5C00;">ABOUT</a></li>
+                <li><a href="works.html">WORKS</a></li>
+                <li><a href="contactus.html">CONTACT</a></li>
+                <li><a href="certificates.html">CERTIFICATES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <div class="left">
+            <img src="hmmm.png" alt="" class="img">
+       </div>
+       <div class="right">
+            <h2>ABOUT ME</h2>
+        <h1>DEDICATED TO DELIVER SATISFACTIONS</h1>
+        <p>Dedicated Information Technology person experienced in computer and related studies from different educational institutions. Seeking a challenging position always to contribute skills and expertise in I.T, language skills sharing and other workplace-related skills and techniques.</p>
+        <div class="info">
+            <div class="info-item">
+                <span>Name:</span> MUGABO Robert
+            </div>
+            <div class="info-item">
+                <span>Age:</span> 23
+            </div>
+            <div class="info-item">
+                <span>Occupation:</span> I.T
+            </div>
+            <div class="info-item">
+                <span>Education:</span> Advanced diploma in I.T
+            </div>
+            <div class="info-item">
+                <span>Phone:</span> +250 789 492 390
+            </div>
+            <div class="info-item">
+                <span>Nationality:</span> Rwandan
+            </div>
+            <div class="info-item">
+                <span>Freelance:</span> Available
+            </div>
+            <div class="info-item">
+                <span>Email:</span> robertscresswell@gmail.com
+            </div>
+        </div>
+    
+    </div>
+    </main>
+
+
+
+    <div class="footer">
+            <span>3+</span> Years of experience                    
+            <span>172+</span> Clients world wide
+            <span>7+</span> Total projects
+    </div>
+</body>
+</html>
